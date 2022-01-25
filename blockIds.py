@@ -1,0 +1,14 @@
+def melon():
+    return 103
+def water():
+    return 8 
+def wool():
+    return 35
+def lava():
+    return 10
+def tnt():
+    return 46
+def flower():
+    return 38
+def diamondBlock():
+    return 57
