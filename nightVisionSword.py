@@ -12,9 +12,8 @@ while True:
         hitX, hitY, hitZ = hit.pos.x, hit.pos.y, hit.pos.z
         block = mc.getBlock(hitX, hitY, hitZ)
         blocks.append(block)
-        
-    if block == 56:
-        mc.posToChat("You got some diamonds!")
-        break
-    
-    time.sleep(0.2)
+            
+        if block == 56:
+            mc.postToChat("You got some diamonds!")
+            break
+        time.sleep(0.2)
